@@ -1,0 +1,5 @@
+#pdf Export as PDF
+= form_tag("/export/pdf.pdf", method: "post") do
+	= sumbit_tag "PDF"
+	= text_area_tag 'text'
+#output
